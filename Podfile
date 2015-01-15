@@ -1,1 +1,0 @@
-pod 'CocoaLumberjack', '~>1.9.1'
