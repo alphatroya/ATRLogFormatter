@@ -6,5 +6,5 @@
 #import <Foundation/Foundation.h>
 
 
-@interface VeryVeryLongNamedClass : NSObject
+@interface VeryVeryVeryVeryLongNamedClass : NSObject
 @end

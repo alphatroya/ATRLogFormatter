@@ -4,11 +4,11 @@
 //
 
 #import <CocoaLumberjack/DDLog.h>
-#import "VeryVeryLongNamedClass.h"
+#import "VeryVeryVeryVeryLongNamedClass.h"
 
 static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
-@implementation VeryVeryLongNamedClass {
+@implementation VeryVeryVeryVeryLongNamedClass {
 
 }
 

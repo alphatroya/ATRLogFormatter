@@ -4,7 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "VeryVeryLongNamedClass.h"
+#import "VeryVeryVeryVeryLongNamedClass.h"
 
 
 @interface ShortNameClass : NSObject

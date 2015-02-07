@@ -49,6 +49,6 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 }
 
 - (IBAction)printVeryLongClassButtonPressed:(UIButton *)sender {
-    [[VeryVeryLongNamedClass alloc] init];
+    [[VeryVeryVeryVeryLongNamedClass alloc] init];
 }
 @end

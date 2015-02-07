@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE21B7B5A7D9A353FBD508EC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF595F65800FF077FF3B624 /* libPods.a */; };
-		B8DCA16C57881A0FB19D80D5 /* VeryVeryLongNamedClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DCACA9046A4971366E8875 /* VeryVeryLongNamedClass.m */; };
+		B8DCA16C57881A0FB19D80D5 /* VeryVeryVeryVeryLongNamedClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DCACA9046A4971366E8875 /* VeryVeryVeryVeryLongNamedClass.m */; };
 		B8DCA1C1C9ED2DF90177A610 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DCA6CC930920DAF29C776A /* main.m */; };
 		B8DCA2F58F3E6A75A42C1B09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DCA340AC2CB3966273CBF9 /* LaunchScreen.xib */; };
 		B8DCA2F9FB4CE4BFDB9764D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DCA9D32D57A3A078E30A52 /* Images.xcassets */; };
@@ -42,7 +42,7 @@
 		B8DCA6CC930920DAF29C776A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8DCA77090D23C59A6A40439 /* ATRLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRLogFormatter.m; sourceTree = "<group>"; };
 		B8DCA7FEE92928311C7185AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B8DCA968F39BC9399744FD98 /* VeryVeryLongNamedClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeryVeryLongNamedClass.h; sourceTree = "<group>"; };
+		B8DCA968F39BC9399744FD98 /* VeryVeryVeryVeryLongNamedClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeryVeryVeryVeryLongNamedClass.h; sourceTree = "<group>"; };
 		B8DCA9D32D57A3A078E30A52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B8DCA9E8C113811906A66D89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B8DCA9FB74446C0318CDF629 /* ShortNameClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortNameClass.h; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		B8DCABAD53CC68DDA16E056A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8DCABE0BD9E263CD53CFC39 /* ShortNameClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShortNameClass.m; sourceTree = "<group>"; };
 		B8DCABE847F42C232DDF7529 /* VeryLongNamedClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeryLongNamedClass.m; sourceTree = "<group>"; };
-		B8DCACA9046A4971366E8875 /* VeryVeryLongNamedClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeryVeryLongNamedClass.m; sourceTree = "<group>"; };
+		B8DCACA9046A4971366E8875 /* VeryVeryVeryVeryLongNamedClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeryVeryVeryVeryLongNamedClass.m; sourceTree = "<group>"; };
 		B8DCAD7D649C812EB12E2C42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B8DCADD568CA462AFD99CF17 /* ATRLogFormatterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATRLogFormatterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DCAFB4DFDCCDAF57A0C4D6 /* ATRLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATRLogFormatter.h; sourceTree = "<group>"; };
@@ -81,8 +81,8 @@
 		B8DCA00779329F01B8AFE1D3 /* DemoClasses */ = {
 			isa = PBXGroup;
 			children = (
-				B8DCACA9046A4971366E8875 /* VeryVeryLongNamedClass.m */,
-				B8DCA968F39BC9399744FD98 /* VeryVeryLongNamedClass.h */,
+				B8DCACA9046A4971366E8875 /* VeryVeryVeryVeryLongNamedClass.m */,
+				B8DCA968F39BC9399744FD98 /* VeryVeryVeryVeryLongNamedClass.h */,
 				B8DCABE847F42C232DDF7529 /* VeryLongNamedClass.m */,
 				B8DCAB453832C2C0EB5B5C4E /* VeryLongNamedClass.h */,
 				B8DCABE0BD9E263CD53CFC39 /* ShortNameClass.m */,
@@ -319,7 +319,7 @@
 				B8DCA4A5FE5247C95D5ABDB1 /* AppDelegate.m in Sources */,
 				B8DCA75DB7CC21DDC6D40206 /* ViewController.m in Sources */,
 				B8DCAD8EEF45BC8F591193CB /* ATRLogFormatter.m in Sources */,
-				B8DCA16C57881A0FB19D80D5 /* VeryVeryLongNamedClass.m in Sources */,
+				B8DCA16C57881A0FB19D80D5 /* VeryVeryVeryVeryLongNamedClass.m in Sources */,
 				B8DCA432FEF846D89055794A /* VeryLongNamedClass.m in Sources */,
 				B8DCAC3553D4CDD0358D2590 /* ShortNameClass.m in Sources */,
 			);

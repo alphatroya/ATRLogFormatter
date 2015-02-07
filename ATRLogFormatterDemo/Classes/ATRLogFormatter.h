@@ -8,4 +8,8 @@
 
 
 @interface ATRLogFormatter : NSObject <DDLogFormatter>
+/**
+*  parameter set minimal class name space for alignment messages, 0 to disable
+*/
+@property(nonatomic) int minimalClassNameLength;
 @end

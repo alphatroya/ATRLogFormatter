@@ -12,6 +12,16 @@
     NSDateFormatter *threadUnsafeDateFormatter;
 }
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        self.minimalClassNameLength = 60;
+    }
+
+    return self;
+}
+
+
 - (NSString *)stringFromDate:(NSDate *)date {
     int32_t loggerCount = OSAtomicAdd32(0, &atomicLoggerCount);
 
@@ -71,7 +81,14 @@
             break;
     }
 
-    return [NSString stringWithFormat:@"%@ | %@ | %@ | %@", [self stringFromDate:(logMessage->timestamp)], logLevel, logMessage.fileName, logMessage->logMsg];
+    NSMutableString *string = [NSString stringWithFormat:@"%@ | %@ | %@ ", [self stringFromDate:(logMessage->timestamp)], logLevel, logMessage.fileName].mutableCopy;
+
+    while (string.length < self.minimalClassNameLength) {
+        [string appendString:@" "];
+    }
+
+    [string appendFormat:@"| %@", logMessage->logMsg];
+    return string;
 }
 
 - (void)didAddToLogger:(id <DDLogger>)logger {
