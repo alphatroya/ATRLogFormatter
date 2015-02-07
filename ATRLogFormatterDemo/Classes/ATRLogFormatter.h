@@ -6,10 +6,19 @@
 #import <Foundation/Foundation.h>
 #import <CocoaLumberjack/DDLog.h>
 
+NS_ENUM(NSUInteger, ATRLogFormatterClassNameAlignment) {
+    ATRLogFormatterClassNameAlignmentLeft,
+    ATRLogFormatterClassNameAlignmentCenter
+};
+
 
 @interface ATRLogFormatter : NSObject <DDLogFormatter>
 /**
-*  parameter set minimal class name space for alignment messages, 0 to disable
+*  parameter set minimal class name space for alignment on right edge, 0 to disable
 */
 @property(nonatomic) int minimalClassNameLength;
+
+
+@property(nonatomic) enum ATRLogFormatterClassNameAlignment classNameAlignment;
+
 @end
