@@ -12,6 +12,17 @@
     NSDateFormatter *threadUnsafeDateFormatter;
 }
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        self.minimalClassNameLength = 60;
+        self.classNameAlignment = ATRLogFormatterClassNameAlignmentLeft;
+    }
+
+    return self;
+}
+
+
 - (NSString *)stringFromDate:(NSDate *)date {
     int32_t loggerCount = OSAtomicAdd32(0, &atomicLoggerCount);
 
@@ -71,7 +82,32 @@
             break;
     }
 
-    return [NSString stringWithFormat:@"%@ | %@ | %@ | %@", [self stringFromDate:(logMessage->timestamp)], logLevel, logMessage.fileName, logMessage->logMsg];
+    NSMutableString *resultString = [NSString stringWithFormat:@"%@ | %@ | ", [self stringFromDate:(logMessage->timestamp)], logLevel].mutableCopy;
+
+    switch (self.classNameAlignment) {
+        case ATRLogFormatterClassNameAlignmentLeft: {
+            [resultString appendFormat:@"%@", logMessage.fileName];
+            while (resultString.length < self.minimalClassNameLength) {
+                [resultString appendString:@" "];
+            }
+            break;
+        }
+        case ATRLogFormatterClassNameAlignmentCenter: {
+            NSInteger classNameFullStringLength = self.minimalClassNameLength - resultString.length;
+            NSInteger initialStringLength = resultString.length;
+            while (resultString.length < initialStringLength + classNameFullStringLength / 2 - logMessage.fileName.length / 2) {
+                [resultString appendString:@" "];
+            }
+            [resultString appendFormat:@"%@", logMessage.fileName];
+            while (resultString.length < self.minimalClassNameLength) {
+                [resultString appendString:@" "];
+            }
+            break;
+        }
+    }
+
+    [resultString appendFormat:@" | %@", logMessage->logMsg];
+    return resultString;
 }
 
 - (void)didAddToLogger:(id <DDLogger>)logger {

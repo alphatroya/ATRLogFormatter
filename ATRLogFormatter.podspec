@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   	s.name         		= "ATRLogFormatter"
-  	s.version      		= "1.1"
+  	s.version      		= "1.1.1"
   	s.summary      		= "Simple log formatter for using CocoaLimberjack library"
   	s.description  		= "Simple log formatter for using CocoaLimberjack library (https://github.com/CocoaLumberjack/CocoaLumberjack)"
   	s.homepage     		= "https://github.com/alphatroya/ATRLogFormatter"
