@@ -18,7 +18,14 @@ NS_ENUM(NSUInteger, ATRLogFormatterClassNameAlignment) {
 */
 @property(nonatomic) int minimalClassNameLength;
 
-
+/**
+*  alignment for name of class, default - left
+*/
 @property(nonatomic) enum ATRLogFormatterClassNameAlignment classNameAlignment;
+
+/**
+*  enable printing line number near class name, default NO;
+*/
+@property(nonatomic, getter=isEnableLineNumberPrinting) BOOL enableLineNumberPrinting;
 
 @end

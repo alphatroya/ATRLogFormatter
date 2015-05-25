@@ -87,6 +87,7 @@
     switch (self.classNameAlignment) {
         case ATRLogFormatterClassNameAlignmentLeft: {
             [resultString appendFormat:@"%@", logMessage.fileName];
+            [self appendLineNumberToString:resultString lineNumber:logMessage->lineNumber];
             while (resultString.length < self.minimalClassNameLength) {
                 [resultString appendString:@" "];
             }
@@ -99,6 +100,7 @@
                 [resultString appendString:@" "];
             }
             [resultString appendFormat:@"%@", logMessage.fileName];
+            [self appendLineNumberToString:resultString lineNumber:logMessage->lineNumber];
             while (resultString.length < self.minimalClassNameLength) {
                 [resultString appendString:@" "];
             }
@@ -116,6 +118,12 @@
 
 - (void)willRemoveFromLogger:(id <DDLogger>)logger {
     OSAtomicDecrement32(&atomicLoggerCount);
+}
+
+- (void)appendLineNumberToString:(NSMutableString *)string lineNumber:(int)lineNumber {
+    if (self.enableLineNumberPrinting) {
+        [string appendFormat:@"[line:%ld]", (long) lineNumber];
+    }
 }
 
 
