@@ -96,11 +96,12 @@
         case ATRLogFormatterClassNameAlignmentCenter: {
             NSInteger classNameFullStringLength = self.minimalClassNameLength - resultString.length;
             NSInteger initialStringLength = resultString.length;
-            while (resultString.length < initialStringLength + classNameFullStringLength / 2 - logMessage.fileName.length / 2) {
+            NSMutableString *fileNameWithLineOfCode = logMessage.fileName.mutableCopy;
+            [self appendLineNumberToString:fileNameWithLineOfCode lineNumber:logMessage->lineNumber];
+            while (resultString.length < initialStringLength + classNameFullStringLength / 2 - fileNameWithLineOfCode.length / 2) {
                 [resultString appendString:@" "];
             }
-            [resultString appendFormat:@"%@", logMessage.fileName];
-            [self appendLineNumberToString:resultString lineNumber:logMessage->lineNumber];
+            [resultString appendFormat:@"%@", fileNameWithLineOfCode];
             while (resultString.length < self.minimalClassNameLength) {
                 [resultString appendString:@" "];
             }
@@ -122,7 +123,7 @@
 
 - (void)appendLineNumberToString:(NSMutableString *)string lineNumber:(int)lineNumber {
     if (self.enableLineNumberPrinting) {
-        [string appendFormat:@"[line:%ld]", (long) lineNumber];
+        [string appendFormat:@"(%ld)", (long) lineNumber];
     }
 }
 
