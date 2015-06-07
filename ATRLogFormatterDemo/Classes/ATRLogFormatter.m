@@ -12,16 +12,19 @@
     NSDateFormatter *threadUnsafeDateFormatter;
 }
 
+#pragma mark - Constructors
+
 - (instancetype)init {
     self = [super init];
     if (self) {
-        self.minimalClassNameLength = 60;
-        self.classNameAlignment = ATRLogFormatterClassNameAlignmentLeft;
+        _minimalClassNameLength = 60;
+        _classNameAlignment = ATRLogFormatterClassNameAlignmentLeft;
     }
 
     return self;
 }
 
+#pragma mark - Private methods
 
 - (NSString *)stringFromDate:(NSDate *)date {
     int32_t loggerCount = OSAtomicAdd32(0, &atomicLoggerCount);
@@ -57,6 +60,12 @@
         }
 
         return [dateFormatter stringFromDate:date];
+    }
+}
+
+- (void)appendLineNumberToString:(NSMutableString *)string lineNumber:(int)lineNumber {
+    if (self.enableLineNumberPrinting) {
+        [string appendFormat:@"(%ld)", (long) lineNumber];
     }
 }
 
@@ -110,7 +119,7 @@
     }
 
     [resultString appendFormat:@" | %@", logMessage->logMsg];
-    return resultString;
+    return resultString.copy;
 }
 
 - (void)didAddToLogger:(id <DDLogger>)logger {
@@ -119,12 +128,6 @@
 
 - (void)willRemoveFromLogger:(id <DDLogger>)logger {
     OSAtomicDecrement32(&atomicLoggerCount);
-}
-
-- (void)appendLineNumberToString:(NSMutableString *)string lineNumber:(int)lineNumber {
-    if (self.enableLineNumberPrinting) {
-        [string appendFormat:@"(%ld)", (long) lineNumber];
-    }
 }
 
 

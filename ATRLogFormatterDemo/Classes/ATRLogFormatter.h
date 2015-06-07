@@ -15,6 +15,7 @@ NS_ENUM(NSUInteger, ATRLogFormatterClassNameAlignment) {
 @interface ATRLogFormatter : NSObject <DDLogFormatter>
 /**
 *  parameter set minimal class name space for alignment on right edge, 0 to disable
+*  default value - 60
 */
 @property(nonatomic) int minimalClassNameLength;
 
