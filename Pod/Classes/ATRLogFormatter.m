@@ -73,7 +73,7 @@
 
 - (NSString *)formatLogMessage:(DDLogMessage *)logMessage {
     NSString *logLevel;
-    switch (logMessage->logFlag) {
+    switch (logMessage->_flag) {
         case LOG_FLAG_ERROR :
             logLevel = @"ERROR  ";
             break;
@@ -91,12 +91,12 @@
             break;
     }
 
-    NSMutableString *resultString = [NSString stringWithFormat:@"%@ | %@ | ", [self stringFromDate:(logMessage->timestamp)], logLevel].mutableCopy;
+    NSMutableString *resultString = [NSString stringWithFormat:@"%@ | %@ | ", [self stringFromDate:(logMessage->_timestamp)], logLevel].mutableCopy;
 
     switch (self.classNameAlignment) {
         case ATRLogFormatterClassNameAlignmentLeft: {
             [resultString appendFormat:@"%@", logMessage.fileName];
-            [self appendLineNumberToString:resultString lineNumber:logMessage->lineNumber];
+            [self appendLineNumberToString:resultString lineNumber:logMessage->_line];
             while (resultString.length < self.minimalClassNameLength) {
                 [resultString appendString:@" "];
             }
@@ -106,7 +106,7 @@
             NSInteger classNameFullStringLength = self.minimalClassNameLength - resultString.length;
             NSInteger initialStringLength = resultString.length;
             NSMutableString *fileNameWithLineOfCode = logMessage.fileName.mutableCopy;
-            [self appendLineNumberToString:fileNameWithLineOfCode lineNumber:logMessage->lineNumber];
+            [self appendLineNumberToString:fileNameWithLineOfCode lineNumber:logMessage->_line];
             while (resultString.length < initialStringLength + classNameFullStringLength / 2 - fileNameWithLineOfCode.length / 2) {
                 [resultString appendString:@" "];
             }
@@ -118,7 +118,7 @@
         }
     }
 
-    [resultString appendFormat:@" | %@", logMessage->logMsg];
+    [resultString appendFormat:@" | %@", logMessage->_message];
     return resultString.copy;
 }
 

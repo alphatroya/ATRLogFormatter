@@ -1,0 +1,24 @@
+PODS:
+  - ATRLogFormatter (1.1.5):
+    - CocoaLumberjack (~> 2.0.1)
+  - CocoaLumberjack (2.0.1):
+    - CocoaLumberjack/Default (= 2.0.1)
+    - CocoaLumberjack/Extensions (= 2.0.1)
+  - CocoaLumberjack/Core (2.0.1)
+  - CocoaLumberjack/Default (2.0.1):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.1):
+    - CocoaLumberjack/Default
+
+DEPENDENCIES:
+  - ATRLogFormatter (from `../`)
+
+EXTERNAL SOURCES:
+  ATRLogFormatter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ATRLogFormatter: fb73b25ce5de6ba0fe02c6ad0f3e7ef78ebdf677
+  CocoaLumberjack: 019d1361244274a6138c788c6cb80baabc13fb8f
+
+COCOAPODS: 0.38.2

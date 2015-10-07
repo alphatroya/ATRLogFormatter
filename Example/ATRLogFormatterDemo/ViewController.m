@@ -8,7 +8,7 @@
 
 
 #import "ViewController.h"
-#import "DDLog.h"
+#import <CocoaLumberjack/DDLog.h>
 #import "ShortNameClass.h"
 #import "VeryLongNamedClass.h"
 

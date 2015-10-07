@@ -9,8 +9,7 @@
 
 #import "AppDelegate.h"
 #import "ATRLogFormatter.h"
-#import "DDASLLogger.h"
-#import "DDTTYLogger.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
 @interface AppDelegate ()
 
@@ -24,11 +23,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
-    [DDLog addLogger:[DDASLLogger sharedInstance] withLogLevel:LOG_LEVEL_VERBOSE];
-    [DDLog addLogger:[DDTTYLogger sharedInstance] withLogLevel:LOG_LEVEL_VERBOSE];
+    [DDLog addLogger:[DDASLLogger sharedInstance]];
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
 
-    [DDASLLogger sharedInstance].logFormatter = [[ATRLogFormatter alloc] init];
-    [DDTTYLogger sharedInstance].logFormatter = [[ATRLogFormatter alloc] init];
+    ATRLogFormatter *const formatter = [[ATRLogFormatter alloc] init];
+    formatter.classNameAlignment = ATRLogFormatterClassNameAlignmentCenter;
+    formatter.enableLineNumberPrinting = YES;
+    [DDASLLogger sharedInstance].logFormatter = formatter;
+    [DDTTYLogger sharedInstance].logFormatter = formatter;
     [DDTTYLogger sharedInstance].colorsEnabled = YES;
 
     return YES;
