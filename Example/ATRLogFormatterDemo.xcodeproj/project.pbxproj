@@ -8,28 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		08491C99E1068EF661F21AC7 /* Pods_ATRLogFormatterDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C1ED48C921180C71CF09A7 /* Pods_ATRLogFormatterDemo.framework */; };
-		9F42B231B19B12CA5A2FF94D /* Pods_ATRLogFormatterDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8230F5F6A332280AED74749D /* Pods_ATRLogFormatterDemoTests.framework */; };
-		B8DCA16C57881A0FB19D80D5 /* VeryVeryVeryVeryLongNamedClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DCACA9046A4971366E8875 /* VeryVeryVeryVeryLongNamedClass.m */; };
-		B8DCA1C1C9ED2DF90177A610 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DCA6CC930920DAF29C776A /* main.m */; };
+		B8DCA01C5F14F2A6D03609AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DCA1C4583896A076F3EB0D /* ViewController.swift */; };
+		B8DCA0C5E752BA391ECAEB90 /* VeryLongNamedClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DCA1D10E83429CE4EED8A7 /* VeryLongNamedClass.swift */; };
+		B8DCA0E6C9BA7FB85541EF5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DCA8EA83B15190CC40ED49 /* AppDelegate.swift */; };
 		B8DCA2F58F3E6A75A42C1B09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DCA340AC2CB3966273CBF9 /* LaunchScreen.xib */; };
 		B8DCA2F9FB4CE4BFDB9764D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DCA9D32D57A3A078E30A52 /* Images.xcassets */; };
-		B8DCA432FEF846D89055794A /* VeryLongNamedClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DCABE847F42C232DDF7529 /* VeryLongNamedClass.m */; };
-		B8DCA4A5FE5247C95D5ABDB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DCAD7D649C812EB12E2C42 /* AppDelegate.m */; };
-		B8DCA75DB7CC21DDC6D40206 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DCAFE03ABB0DBD553DAC40 /* ViewController.m */; };
-		B8DCAC3553D4CDD0358D2590 /* ShortNameClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DCABE0BD9E263CD53CFC39 /* ShortNameClass.m */; };
+		B8DCA8461104FE733CA7B5FE /* VeryVeryVeryVeryLongNamedClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DCAE2131DFE1EEE2A28313 /* VeryVeryVeryVeryLongNamedClass.swift */; };
+		B8DCAE97C75E9AE2C1337986 /* ShortNameClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DCACC42F9B727EFA1D15D0 /* ShortNameClass.swift */; };
 		B8DCAEB4527ED01D19936C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DCAF00CD40E1B1945EB4A2 /* Main.storyboard */; };
-		B8DCAFC8695A4E19FF61C12E /* ATRLogFormatterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DCAA780A83DCED7B4BAC38 /* ATRLogFormatterDemoTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B8DCAA770569F25A8BB74C94 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B8DCA6C6635101A38B231E5B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B8DCA5E3B06B7CE6595BE31B;
-			remoteInfo = ATRLogFormatterDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		017C371C174A09BE442D05DE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -39,25 +26,16 @@
 		8230F5F6A332280AED74749D /* Pods_ATRLogFormatterDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATRLogFormatterDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D8F2B6CB3A0F211FEA5DB08 /* Pods-ATRLogFormatterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATRLogFormatterDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATRLogFormatterDemo/Pods-ATRLogFormatterDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B7AA031F204E9657B9AABEE3 /* Pods-ATRLogFormatterDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATRLogFormatterDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATRLogFormatterDemoTests/Pods-ATRLogFormatterDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		B8DCA0B2D2D65B65DEBAC066 /* ATRLogFormatterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATRLogFormatterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8DCA1C4583896A076F3EB0D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8DCA1D10E83429CE4EED8A7 /* VeryLongNamedClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeryLongNamedClass.swift; sourceTree = "<group>"; };
 		B8DCA34A4C589292A35A8DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		B8DCA62427C30E391F551CA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B8DCA6CC930920DAF29C776A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8DCA7FEE92928311C7185AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B8DCA968F39BC9399744FD98 /* VeryVeryVeryVeryLongNamedClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeryVeryVeryVeryLongNamedClass.h; sourceTree = "<group>"; };
+		B8DCA8EA83B15190CC40ED49 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8DCA9D32D57A3A078E30A52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B8DCA9E8C113811906A66D89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B8DCA9FB74446C0318CDF629 /* ShortNameClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortNameClass.h; sourceTree = "<group>"; };
-		B8DCAA460AE34774BE8EB2C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		B8DCAA780A83DCED7B4BAC38 /* ATRLogFormatterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATRLogFormatterDemoTests.m; sourceTree = "<group>"; };
-		B8DCAB453832C2C0EB5B5C4E /* VeryLongNamedClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeryLongNamedClass.h; sourceTree = "<group>"; };
 		B8DCABAD53CC68DDA16E056A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B8DCABE0BD9E263CD53CFC39 /* ShortNameClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShortNameClass.m; sourceTree = "<group>"; };
-		B8DCABE847F42C232DDF7529 /* VeryLongNamedClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeryLongNamedClass.m; sourceTree = "<group>"; };
-		B8DCACA9046A4971366E8875 /* VeryVeryVeryVeryLongNamedClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeryVeryVeryVeryLongNamedClass.m; sourceTree = "<group>"; };
-		B8DCAD7D649C812EB12E2C42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8DCACC42F9B727EFA1D15D0 /* ShortNameClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortNameClass.swift; sourceTree = "<group>"; };
 		B8DCADD568CA462AFD99CF17 /* ATRLogFormatterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATRLogFormatterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8DCAFE03ABB0DBD553DAC40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8DCAE2131DFE1EEE2A28313 /* VeryVeryVeryVeryLongNamedClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeryVeryVeryVeryLongNamedClass.swift; sourceTree = "<group>"; };
 		BB0DDD07738F2097806983C1 /* Pods-ATRLogFormatterDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATRLogFormatterDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATRLogFormatterDemoTests/Pods-ATRLogFormatterDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7C1ED48C921180C71CF09A7 /* Pods_ATRLogFormatterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATRLogFormatterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -71,36 +49,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8DCAA53D8A946DA96C10540 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F42B231B19B12CA5A2FF94D /* Pods_ATRLogFormatterDemoTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		B8DCA00779329F01B8AFE1D3 /* DemoClasses */ = {
 			isa = PBXGroup;
 			children = (
-				B8DCACA9046A4971366E8875 /* VeryVeryVeryVeryLongNamedClass.m */,
-				B8DCA968F39BC9399744FD98 /* VeryVeryVeryVeryLongNamedClass.h */,
-				B8DCABE847F42C232DDF7529 /* VeryLongNamedClass.m */,
-				B8DCAB453832C2C0EB5B5C4E /* VeryLongNamedClass.h */,
-				B8DCABE0BD9E263CD53CFC39 /* ShortNameClass.m */,
-				B8DCA9FB74446C0318CDF629 /* ShortNameClass.h */,
+				B8DCACC42F9B727EFA1D15D0 /* ShortNameClass.swift */,
+				B8DCA1D10E83429CE4EED8A7 /* VeryLongNamedClass.swift */,
+				B8DCAE2131DFE1EEE2A28313 /* VeryVeryVeryVeryLongNamedClass.swift */,
 			);
 			path = DemoClasses;
-			sourceTree = "<group>";
-		};
-		B8DCA52516D401E04D6B1A53 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B8DCAA460AE34774BE8EB2C7 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		B8DCA5F24188873D87F8DBED /* ATRLogFormatterDemo */ = {
@@ -109,12 +68,10 @@
 				B8DCABAA43B39C677B1DD887 /* Supporting Files */,
 				B8DCA9D32D57A3A078E30A52 /* Images.xcassets */,
 				B8DCA340AC2CB3966273CBF9 /* LaunchScreen.xib */,
-				B8DCA9E8C113811906A66D89 /* AppDelegate.h */,
-				B8DCAD7D649C812EB12E2C42 /* AppDelegate.m */,
 				B8DCAF00CD40E1B1945EB4A2 /* Main.storyboard */,
-				B8DCA62427C30E391F551CA0 /* ViewController.h */,
-				B8DCAFE03ABB0DBD553DAC40 /* ViewController.m */,
 				B8DCA00779329F01B8AFE1D3 /* DemoClasses */,
+				B8DCA8EA83B15190CC40ED49 /* AppDelegate.swift */,
+				B8DCA1C4583896A076F3EB0D /* ViewController.swift */,
 			);
 			path = ATRLogFormatterDemo;
 			sourceTree = "<group>";
@@ -124,26 +81,15 @@
 			children = (
 				B8DCA99B4EFCB4FCF2A1DEB4 /* Products */,
 				B8DCA5F24188873D87F8DBED /* ATRLogFormatterDemo */,
-				B8DCA847FECC0297CF8C4307 /* ATRLogFormatterDemoTests */,
 				DCD8938D5F9A109980DEE36F /* Pods */,
 				E09300051ED384F48FD6D126 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		B8DCA847FECC0297CF8C4307 /* ATRLogFormatterDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				B8DCA52516D401E04D6B1A53 /* Supporting Files */,
-				B8DCAA780A83DCED7B4BAC38 /* ATRLogFormatterDemoTests.m */,
-			);
-			path = ATRLogFormatterDemoTests;
 			sourceTree = "<group>";
 		};
 		B8DCA99B4EFCB4FCF2A1DEB4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				B8DCADD568CA462AFD99CF17 /* ATRLogFormatterDemo.app */,
-				B8DCA0B2D2D65B65DEBAC066 /* ATRLogFormatterDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				B8DCA34A4C589292A35A8DB9 /* Info.plist */,
-				B8DCA6CC930920DAF29C776A /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -183,27 +128,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B8DCA279CAC3AE016AD3C8C9 /* ATRLogFormatterDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B8DCAF37FDFD61A351110471 /* Build configuration list for PBXNativeTarget "ATRLogFormatterDemoTests" */;
-			buildPhases = (
-				DD15B4CDFDF0FA5B601996AE /* Check Pods Manifest.lock */,
-				B8DCADDF95357033EBC3C503 /* Sources */,
-				B8DCAA53D8A946DA96C10540 /* Frameworks */,
-				B8DCAE142CBEDD91BBE7E122 /* Resources */,
-				A589F26358C3478D30F96D28 /* Embed Pods Frameworks */,
-				4C5B506937A8B4145B338D2D /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B8DCA078A513261CA88D30AB /* PBXTargetDependency */,
-			);
-			name = ATRLogFormatterDemoTests;
-			productName = ATRLogFormatterDemoTests;
-			productReference = B8DCA0B2D2D65B65DEBAC066 /* ATRLogFormatterDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		B8DCA5E3B06B7CE6595BE31B /* ATRLogFormatterDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8DCAF7887C9937B3E8A8B53 /* Build configuration list for PBXNativeTarget "ATRLogFormatterDemo" */;
@@ -246,7 +170,6 @@
 			projectRoot = "";
 			targets = (
 				B8DCA5E3B06B7CE6595BE31B /* ATRLogFormatterDemo */,
-				B8DCA279CAC3AE016AD3C8C9 /* ATRLogFormatterDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,13 +182,6 @@
 				B8DCA2F9FB4CE4BFDB9764D6 /* Images.xcassets in Resources */,
 				B8DCA2F58F3E6A75A42C1B09 /* LaunchScreen.xib in Resources */,
 				B8DCAEB4527ED01D19936C08 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B8DCAE142CBEDD91BBE7E122 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,36 +203,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATRLogFormatterDemo/Pods-ATRLogFormatterDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4C5B506937A8B4145B338D2D /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATRLogFormatterDemoTests/Pods-ATRLogFormatterDemoTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A589F26358C3478D30F96D28 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATRLogFormatterDemoTests/Pods-ATRLogFormatterDemoTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BFD7D053055BB25D0E218206 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -330,21 +216,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATRLogFormatterDemo/Pods-ATRLogFormatterDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DD15B4CDFDF0FA5B601996AE /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E78D6CB3E25E89C5D0D30FE3 /* Check Pods Manifest.lock */ = {
@@ -365,36 +236,19 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B8DCADDF95357033EBC3C503 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B8DCAFC8695A4E19FF61C12E /* ATRLogFormatterDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B8DCAF5E5812B17FD13E4E5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8DCA1C1C9ED2DF90177A610 /* main.m in Sources */,
-				B8DCA4A5FE5247C95D5ABDB1 /* AppDelegate.m in Sources */,
-				B8DCA75DB7CC21DDC6D40206 /* ViewController.m in Sources */,
-				B8DCA16C57881A0FB19D80D5 /* VeryVeryVeryVeryLongNamedClass.m in Sources */,
-				B8DCA432FEF846D89055794A /* VeryLongNamedClass.m in Sources */,
-				B8DCAC3553D4CDD0358D2590 /* ShortNameClass.m in Sources */,
+				B8DCA0E6C9BA7FB85541EF5C /* AppDelegate.swift in Sources */,
+				B8DCA01C5F14F2A6D03609AC /* ViewController.swift in Sources */,
+				B8DCAE97C75E9AE2C1337986 /* ShortNameClass.swift in Sources */,
+				B8DCA0C5E752BA391ECAEB90 /* VeryLongNamedClass.swift in Sources */,
+				B8DCA8461104FE733CA7B5FE /* VeryVeryVeryVeryLongNamedClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B8DCA078A513261CA88D30AB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B8DCA5E3B06B7CE6595BE31B /* ATRLogFormatterDemo */;
-			targetProxy = B8DCAA770569F25A8BB74C94 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B8DCA340AC2CB3966273CBF9 /* LaunchScreen.xib */ = {
@@ -416,40 +270,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B8DCA142C9ABFEB782383EAD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7AA031F204E9657B9AABEE3 /* Pods-ATRLogFormatterDemoTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ATRLogFormatterDemo.app/ATRLogFormatterDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ATRLogFormatterDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.handh.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Release;
-		};
-		B8DCA9AD9DBD94B0EE8C06E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB0DDD07738F2097806983C1 /* Pods-ATRLogFormatterDemoTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ATRLogFormatterDemo.app/ATRLogFormatterDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ATRLogFormatterDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.handh.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
 		B8DCAAF27FFFDFEAB17BA3DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -563,15 +383,6 @@
 			buildConfigurations = (
 				B8DCAF7B085E52D3CFA3622D /* Debug */,
 				B8DCAAF27FFFDFEAB17BA3DA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B8DCAF37FDFD61A351110471 /* Build configuration list for PBXNativeTarget "ATRLogFormatterDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B8DCA9AD9DBD94B0EE8C06E1 /* Debug */,
-				B8DCA142C9ABFEB782383EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
