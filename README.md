@@ -1,9 +1,8 @@
 # ATRLogFormatter
 
-[![CI Status](http://img.shields.io/travis/Alexey Korolev/ATRLogFormatter.svg?style=flat)](https://travis-ci.org/Alexey Korolev/ATRLogFormatter)
-[![Version](https://img.shields.io/cocoapods/v/ATRLogFormatter.svg?style=flat)](http://cocoapods.org/pods/ATRLogFormatter)
-[![License](https://img.shields.io/cocoapods/l/ATRLogFormatter.svg?style=flat)](http://cocoapods.org/pods/ATRLogFormatter)
-[![Platform](https://img.shields.io/cocoapods/p/ATRLogFormatter.svg?style=flat)](http://cocoapods.org/pods/ATRLogFormatter)
+[![Licence](https://img.shields.io/badge/Licence-MIT-yellowgreen.svg)]()
+[![Swift 2.0](https://img.shields.io/badge/Swift%202.0-Compatible-green.svg)]()
+
 
 Simple log formatter for using [CocoaLimberjack library](https://github.com/CocoaLumberjack/CocoaLumberjack)  
 ![image](/img/screenshot1.png)
@@ -12,11 +11,22 @@ Simple log formatter for using [CocoaLimberjack library](https://github.com/Coco
 
 Set log formatter property of DDASLLogger and DDTTYLogger singletones to ATRLogFormatter instance
 
+### Objective-C
+
 ```Objective-C  
 ATRLogFormatter *formatter = [[ATRLogFormatter alloc] init];
 [DDASLLogger sharedInstance].logFormatter = formatter;  
 [DDTTYLogger sharedInstance].logFormatter = formatter;  
 ```
+
+### Swift
+
+```Swift  
+let formatter = ATRLogFormatter()
+DDASLLogger.sharedInstance().logFormatter = formatter  
+DDTTYLogger.sharedInstance().logFormatter = formatter
+```
+
 
 ## Installation
 
