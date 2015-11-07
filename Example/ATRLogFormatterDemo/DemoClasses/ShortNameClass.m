@@ -3,10 +3,10 @@
 // Copyright (c) 2015 Heads and Hands. All rights reserved.
 //
 
-#import <CocoaLumberjack/DDLog.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
 #import "ShortNameClass.h"
 
-static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+static const int ddLogLevel = DDLogLevelVerbose;
 
 @implementation ShortNameClass {
 

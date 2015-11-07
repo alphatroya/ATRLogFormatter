@@ -8,11 +8,11 @@
 
 
 #import "ViewController.h"
-#import <CocoaLumberjack/DDLog.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
 #import "ShortNameClass.h"
 #import "VeryLongNamedClass.h"
 
-static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+static const int ddLogLevel = DDLogLevelVerbose;
 
 @interface ViewController ()
 

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08491C99E1068EF661F21AC7 /* Pods_ATRLogFormatterDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C1ED48C921180C71CF09A7 /* Pods_ATRLogFormatterDemo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		9F42B231B19B12CA5A2FF94D /* Pods_ATRLogFormatterDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8230F5F6A332280AED74749D /* Pods_ATRLogFormatterDemoTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		08491C99E1068EF661F21AC7 /* Pods_ATRLogFormatterDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C1ED48C921180C71CF09A7 /* Pods_ATRLogFormatterDemo.framework */; };
+		9F42B231B19B12CA5A2FF94D /* Pods_ATRLogFormatterDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8230F5F6A332280AED74749D /* Pods_ATRLogFormatterDemoTests.framework */; };
 		B8DCA16C57881A0FB19D80D5 /* VeryVeryVeryVeryLongNamedClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DCACA9046A4971366E8875 /* VeryVeryVeryVeryLongNamedClass.m */; };
 		B8DCA1C1C9ED2DF90177A610 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DCA6CC930920DAF29C776A /* main.m */; };
 		B8DCA2F58F3E6A75A42C1B09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DCA340AC2CB3966273CBF9 /* LaunchScreen.xib */; };
