@@ -4,9 +4,3 @@ use_frameworks!
 target 'ATRLogFormatterDemo', :exclusive => true do
   pod "ATRLogFormatter", :path => "../"
 end
-
-target 'ATRLogFormatterDemoTests', :exclusive => true do
-  pod "ATRLogFormatter", :path => "../"
-
-
-end

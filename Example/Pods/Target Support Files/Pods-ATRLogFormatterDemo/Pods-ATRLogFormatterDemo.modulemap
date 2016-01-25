@@ -1,0 +1,6 @@
+framework module Pods_ATRLogFormatterDemo {
+  umbrella header "Pods-ATRLogFormatterDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
