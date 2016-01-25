@@ -1,0 +1,25 @@
+{
+  "name": "ATRLogFormatter",
+  "version": "1.2.0",
+  "summary": "Simple log formatter for using CocoaLimberjack library",
+  "description": "Simple log formatter for using CocoaLimberjack library (https://github.com/CocoaLumberjack/CocoaLumberjack)",
+  "homepage": "https://github.com/alphatroya/ATRLogFormatter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alexey Korolev": "alphatroya@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/alphatroya/ATRLogFormatter.git",
+    "tag": "1.2.0"
+  },
+  "source_files": "Pod/Classes/",
+  "requires_arc": true,
+  "dependencies": {
+    "CocoaLumberjack/Swift": [
+      "2.2.0"
+    ]
+  }
+}
