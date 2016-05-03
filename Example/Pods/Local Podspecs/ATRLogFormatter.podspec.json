@@ -19,7 +19,7 @@
   "requires_arc": true,
   "dependencies": {
     "CocoaLumberjack/Swift": [
-      "2.2.0"
+      "2.3.0"
     ]
   }
 }
