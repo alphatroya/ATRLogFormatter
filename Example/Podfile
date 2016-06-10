@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'ATRLogFormatterDemo', :exclusive => true do
+target 'ATRLogFormatterDemo' do
   pod "ATRLogFormatter", :path => "../"
 end
