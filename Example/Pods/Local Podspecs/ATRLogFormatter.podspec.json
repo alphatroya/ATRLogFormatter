@@ -18,7 +18,7 @@
   "source_files": "Pod/Classes/",
   "requires_arc": true,
   "dependencies": {
-    "CocoaLumberjack/Swift": [
+    "CocoaLumberjack": [
       "2.3.0"
     ]
   },

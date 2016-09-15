@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 	s.source       		= { :git => "https://github.com/alphatroya/ATRLogFormatter.git", :tag => s.version.to_s }
 	s.source_files  	= "Pod/Classes/"
 	s.requires_arc 		= true
-	s.dependency "CocoaLumberjack/Swift", "2.3.0"
+	s.dependency "CocoaLumberjack", "2.3.0"
 
 
 end
