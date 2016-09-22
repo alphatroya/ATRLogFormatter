@@ -15,12 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject:AnyObject]?) -> Bool {
         // Override point for customization after application launch.
 
-        DDLog.addLogger(DDTTYLogger.sharedInstance())
-        DDLog.addLogger(DDASLLogger.sharedInstance())
+        DDLog.add(DDTTYLogger.sharedInstance())
+        DDLog.add(DDASLLogger.sharedInstance())
 
         let formatter = ATRLogFormatter()
-        formatter.classNameAlignment = .Center
-        formatter.enableLineNumberPrinting = true
+        formatter.classNameAlignment = .center
+        formatter.isEnableLineNumberPrinting = true
         DDASLLogger.sharedInstance().logFormatter = formatter
         DDTTYLogger.sharedInstance().logFormatter = formatter
         DDTTYLogger.sharedInstance().colorsEnabled = true
