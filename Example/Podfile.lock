@@ -1,12 +1,12 @@
 PODS:
-  - ATRLogFormatter (1.3.0):
-    - CocoaLumberjack/Swift (= 2.3.0)
-  - CocoaLumberjack/Core (2.3.0)
-  - CocoaLumberjack/Default (2.3.0):
+  - ATRLogFormatter (1.3.1):
+    - CocoaLumberjack/Swift (= 3.0.0)
+  - CocoaLumberjack/Core (3.0.0)
+  - CocoaLumberjack/Default (3.0.0):
     - CocoaLumberjack/Core
-  - CocoaLumberjack/Extensions (2.3.0):
+  - CocoaLumberjack/Extensions (3.0.0):
     - CocoaLumberjack/Default
-  - CocoaLumberjack/Swift (2.3.0):
+  - CocoaLumberjack/Swift (3.0.0):
     - CocoaLumberjack/Extensions
 
 DEPENDENCIES:
@@ -17,9 +17,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ATRLogFormatter: f2972e13429c9dd3c40a5286a4b99e3cfc559c59
-  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  ATRLogFormatter: 438c014cde1a1afc2db01c91f70edd72938d32ca
+  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
 
 PODFILE CHECKSUM: ae22c3166083f9757baabdf1e37e050e2c99436d
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.rc.2

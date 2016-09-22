@@ -19,13 +19,13 @@ class ViewController: UIViewController {
     }
 
 
-    @IBAction func printShortClassButtonPressed(sender: AnyObject) {
+    @IBAction func printShortClassButtonPressed(_ sender: AnyObject) {
         ShortNameClass()
     }
-    @IBAction func printLongClassButtonPressed(sender: AnyObject) {
+    @IBAction func printLongClassButtonPressed(_ sender: AnyObject) {
        VeryLongNamedClass()
     }
-    @IBAction func printVeryLongClassButtonPressed(sender: AnyObject) {
+    @IBAction func printVeryLongClassButtonPressed(_ sender: AnyObject) {
         VeryVeryVeryVeryLongNamedClass()
     }
 }
