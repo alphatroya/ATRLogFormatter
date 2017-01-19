@@ -11,7 +11,7 @@
 		D46340F51E311DE100282C3D /* ATRLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D46340E71E311DE100282C3D /* ATRLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D46341071E311E8100282C3D /* ATRLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D46341031E311E8100282C3D /* ATRLogFormatter.h */; };
 		D46341081E311E8100282C3D /* ATRLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D46341041E311E8100282C3D /* ATRLogFormatter.m */; };
-		D463413D1E3121C000282C3D /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46341211E31212300282C3D /* CocoaLumberjack.framework */; };
+		D463413F1E312BA400282C3D /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D463413E1E312BA400282C3D /* CocoaLumberjack.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,118 +21,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = D46340E31E311DE100282C3D;
 			remoteInfo = ATRLogFormatter;
-		};
-		D463411C1E31212300282C3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D46341091E31212200282C3D /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCB3185114EB418E001CFBEE;
-			remoteInfo = CocoaLumberjack;
-		};
-		D463411E1E31212300282C3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D46341091E31212200282C3D /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BF0F1A81D8B700692297;
-			remoteInfo = CocoaLumberjackSwift;
-		};
-		D46341201E31212300282C3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D46341091E31212200282C3D /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19FF46021B8B4CF400B43179;
-			remoteInfo = "CocoaLumberjack-iOS";
-		};
-		D46341221E31212300282C3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D46341091E31212200282C3D /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19FF460F1B8B4D1400B43179;
-			remoteInfo = "CocoaLumberjackSwift-iOS";
-		};
-		D46341241E31212300282C3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D46341091E31212200282C3D /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BFD71A81E06E00692297;
-			remoteInfo = "CocoaLumberjack-iOS-Static";
-		};
-		D46341261E31212300282C3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D46341091E31212200282C3D /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19190EDE1B84D812008D059E;
-			remoteInfo = "CocoaLumberjack-watchOS";
-		};
-		D46341281E31212300282C3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D46341091E31212200282C3D /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19190EEB1B84D826008D059E;
-			remoteInfo = "CocoaLumberjackSwift-watchOS";
-		};
-		D463412A1E31212300282C3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D46341091E31212200282C3D /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19D90B261BBFA9DB00947169;
-			remoteInfo = "CocoaLumberjack-tvOS";
-		};
-		D463412C1E31212300282C3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D46341091E31212200282C3D /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19D90B351BBFAA7500947169;
-			remoteInfo = "CocoaLumberjackSwift-tvOS";
-		};
-		D463412E1E31212300282C3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D46341091E31212200282C3D /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCB318CA14ED6C3B001CFBEE;
-			remoteInfo = FmwkTest;
-		};
-		D46341301E31212300282C3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D46341091E31212200282C3D /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 55CCBEFF19BA679200957A39;
-			remoteInfo = SwiftTest;
-		};
-		D46341321E31212300282C3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D46341091E31212200282C3D /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BF5F1A81DD2E00692297;
-			remoteInfo = iOSSwiftTest;
-		};
-		D46341341E31212300282C3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D46341091E31212200282C3D /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19EC14671B84D134000EC2E7;
-			remoteInfo = watchOSSwiftTest;
-		};
-		D46341361E31212300282C3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D46341091E31212200282C3D /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19EC14731B84D134000EC2E7;
-			remoteInfo = "watchOSSwiftTest Extension";
-		};
-		D46341381E31212300282C3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D46341091E31212200282C3D /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19406BE11BDBABFF001194DC;
-			remoteInfo = tvOSSwiftTest;
-		};
-		D463413A1E31212300282C3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D46341091E31212200282C3D /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BFF21A81E0C700692297;
-			remoteInfo = iOSLibStaticTest;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -144,7 +32,7 @@
 		D46340F41E311DE100282C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D46341031E311E8100282C3D /* ATRLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATRLogFormatter.h; sourceTree = "<group>"; };
 		D46341041E311E8100282C3D /* ATRLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRLogFormatter.m; sourceTree = "<group>"; };
-		D46341091E31212200282C3D /* Lumberjack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lumberjack.xcodeproj; path = Carthage/Checkouts/CocoaLumberjack/Lumberjack.xcodeproj; sourceTree = "<group>"; };
+		D463413E1E312BA400282C3D /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D463413D1E3121C000282C3D /* CocoaLumberjack.framework in Frameworks */,
+				D463413F1E312BA400282C3D /* CocoaLumberjack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,33 +109,10 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		D463410A1E31212200282C3D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D463411D1E31212300282C3D /* CocoaLumberjack.framework */,
-				D463411F1E31212300282C3D /* CocoaLumberjackSwift.framework */,
-				D46341211E31212300282C3D /* CocoaLumberjack.framework */,
-				D46341231E31212300282C3D /* CocoaLumberjackSwift.framework */,
-				D46341251E31212300282C3D /* libCocoaLumberjack.a */,
-				D46341271E31212300282C3D /* CocoaLumberjack.framework */,
-				D46341291E31212300282C3D /* CocoaLumberjackSwift.framework */,
-				D463412B1E31212300282C3D /* CocoaLumberjack.framework */,
-				D463412D1E31212300282C3D /* CocoaLumberjackSwift.framework */,
-				D463412F1E31212300282C3D /* FmwkTest.app */,
-				D46341311E31212300282C3D /* SwiftTest.app */,
-				D46341331E31212300282C3D /* iOSSwiftTest.app */,
-				D46341351E31212300282C3D /* watchOSSwiftTest.app */,
-				D46341371E31212300282C3D /* watchOSSwiftTest Extension.appex */,
-				D46341391E31212300282C3D /* tvOSSwiftTest.app */,
-				D463413B1E31212300282C3D /* iOSLibStaticTest.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		D463413C1E31215400282C3D /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				D46341091E31212200282C3D /* Lumberjack.xcodeproj */,
+				D463413E1E312BA400282C3D /* CocoaLumberjack.framework */,
 			);
 			name = Framework;
 			sourceTree = "<group>";
@@ -332,12 +197,6 @@
 			mainGroup = D46340DA1E311DE100282C3D;
 			productRefGroup = D46340E51E311DE100282C3D /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = D463410A1E31212200282C3D /* Products */;
-					ProjectRef = D46341091E31212200282C3D /* Lumberjack.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				D46340E31E311DE100282C3D /* ATRLogFormatter */,
@@ -345,121 +204,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		D463411D1E31212300282C3D /* CocoaLumberjack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjack.framework;
-			remoteRef = D463411C1E31212300282C3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D463411F1E31212300282C3D /* CocoaLumberjackSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjackSwift.framework;
-			remoteRef = D463411E1E31212300282C3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D46341211E31212300282C3D /* CocoaLumberjack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjack.framework;
-			remoteRef = D46341201E31212300282C3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D46341231E31212300282C3D /* CocoaLumberjackSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjackSwift.framework;
-			remoteRef = D46341221E31212300282C3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D46341251E31212300282C3D /* libCocoaLumberjack.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libCocoaLumberjack.a;
-			remoteRef = D46341241E31212300282C3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D46341271E31212300282C3D /* CocoaLumberjack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjack.framework;
-			remoteRef = D46341261E31212300282C3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D46341291E31212300282C3D /* CocoaLumberjackSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjackSwift.framework;
-			remoteRef = D46341281E31212300282C3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D463412B1E31212300282C3D /* CocoaLumberjack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjack.framework;
-			remoteRef = D463412A1E31212300282C3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D463412D1E31212300282C3D /* CocoaLumberjackSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjackSwift.framework;
-			remoteRef = D463412C1E31212300282C3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D463412F1E31212300282C3D /* FmwkTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = FmwkTest.app;
-			remoteRef = D463412E1E31212300282C3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D46341311E31212300282C3D /* SwiftTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SwiftTest.app;
-			remoteRef = D46341301E31212300282C3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D46341331E31212300282C3D /* iOSSwiftTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = iOSSwiftTest.app;
-			remoteRef = D46341321E31212300282C3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D46341351E31212300282C3D /* watchOSSwiftTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = watchOSSwiftTest.app;
-			remoteRef = D46341341E31212300282C3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D46341371E31212300282C3D /* watchOSSwiftTest Extension.appex */ = {
-			isa = PBXReferenceProxy;
-			fileType = "wrapper.app-extension";
-			path = "watchOSSwiftTest Extension.appex";
-			remoteRef = D46341361E31212300282C3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D46341391E31212300282C3D /* tvOSSwiftTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = tvOSSwiftTest.app;
-			remoteRef = D46341381E31212300282C3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D463413B1E31212300282C3D /* iOSLibStaticTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = iOSLibStaticTest.app;
-			remoteRef = D463413A1E31212300282C3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D46340E21E311DE100282C3D /* Resources */ = {
@@ -609,6 +353,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ATRLogFormatter/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -626,6 +374,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ATRLogFormatter/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
