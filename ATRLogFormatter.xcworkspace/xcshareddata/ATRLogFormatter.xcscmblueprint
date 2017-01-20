@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E8A4C2F28EF8DD3259F02E1FA2E45D5FBCDD85A9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E8A4C2F28EF8DD3259F02E1FA2E45D5FBCDD85A9" : 9223372036854775807,
+    "35B5C9A93714EC9BEB56BAE809C5551E5C66E52D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CC892EF0-A352-4D69-8CCD-B81D040D4579",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E8A4C2F28EF8DD3259F02E1FA2E45D5FBCDD85A9" : "ATRLogFormatter\/",
+    "35B5C9A93714EC9BEB56BAE809C5551E5C66E52D" : "ATRLogFormatter\/Carthage\/Checkouts\/CocoaLumberjack\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ATRLogFormatter",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ATRLogFormatter.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CocoaLumberjack\/CocoaLumberjack.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "35B5C9A93714EC9BEB56BAE809C5551E5C66E52D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/alphatroya\/ATRLogFormatter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E8A4C2F28EF8DD3259F02E1FA2E45D5FBCDD85A9"
+    }
+  ]
+}
