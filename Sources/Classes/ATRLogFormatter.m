@@ -65,7 +65,7 @@
 
 - (void)appendLineNumberToString:(NSMutableString *)string lineNumber:(int)lineNumber {
     if (self.enableLineNumberPrinting) {
-        [string appendFormat:@"(%ld)", (long) lineNumber];
+        [string appendFormat:@"(%ld)", (long)lineNumber];
     }
 }
 

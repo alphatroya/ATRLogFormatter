@@ -1,0 +1,6 @@
+language: objective-c
+osx_image: xcode10.2
+xcode_sdk: iphoneos11.0
+script:
+- bundle install
+- bundle exec pod lib lint --allow-warnings
